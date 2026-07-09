@@ -1,0 +1,54 @@
+### Variables Type ##########
+student_name = "Mintesinot Tolosa"   # It is a string variables Type
+age = 28                             # It is a init variables Type
+balanc = 10,500.50                   # It is a float variables Type 
+is_enrolled = True                   # It is a ask logical True or False so Bool
+verified = None                      # None means none value yet
+
+
+###### Operators #############
+
+##Arithmetic 
+
+Operator 
+1. + - *  ------ This are normal maths operator
+2. /      ------ Division, gives a float value: 9/2 - 4.5
+3. //     ------ floor division, drop the remainder: 9/2 - 4
+4. %      ------ module - give the remainder
+5. **     ------ Exponent(power) or squre^2
+
+## Comparison and Logical 
+
+Comparison Operators ( ==  !=   >   <   >=    <=) and 
+Logical Operators (and  or  not)  all return True or False 
+
+
+
+
+######  Control Flow ###########
+
+It is how a program makes decisions and repeats work. 
+
+++++  Conditionals: if/elif/els ++++++++
+
+++++ Loops : while and For ++++++++
+
+######  Functions and Scope ########
+
+# Function is a named, reusable block of code.Define it once with def, then call it as many times as we like.
+- Functions keep code organised and stop repeating the same thing.
+
+ +++++++++++++ Function Sytax +++++++++++++++
+
+      		    def function_name(parameter1, parameter2):
+    			result = parameter1 + parameter2
+    			return result
+    
+                    print(function_name(5, 10))             
+
+# Scope: where variable live
+
+## Local Variables - a variable created inside a function. and exists only while the function runs.
+## Global Variables - a variable defined at the top level and read anywhere, including inside functions.
+
+ 
